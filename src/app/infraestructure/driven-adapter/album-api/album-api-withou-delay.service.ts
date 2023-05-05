@@ -12,6 +12,7 @@ export  class AlbumApiServiceWithoutDelay extends AlbumGateway {
 
   private _url = 'https://jsonplaceholder.typicode.com/albums/';
   constructor(private http: HttpClient) {super();}
+  
   getByID(id: String): Observable<Album> {
     return this.http.get<Album>(this._url+id);
   }
@@ -21,5 +22,5 @@ export  class AlbumApiServiceWithoutDelay extends AlbumGateway {
   saveNew(_alb: Album): Observable<void> {
     throw new Error('Method not implemented.');
   }
-  
+
 }

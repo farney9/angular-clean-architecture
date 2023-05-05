@@ -6,6 +6,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Tutorial
+
+[Arquitectura Limpia en Angular](https://www.youtube.com/watch?v=g5z_8ecIic0&list=PL6PxPH2IZvJre4df2MIIiwJ3zFYffis7i&ab_channel=weincode)
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.

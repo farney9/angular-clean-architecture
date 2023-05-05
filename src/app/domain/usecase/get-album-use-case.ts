@@ -8,9 +8,9 @@ import {AlbumGateway} from '../models/Album/gateway/album-gateway';
 })
 
 export class GetAlbumUseCases {
-  constructor( private _albumGateWay: AlbumGateway) {}  
+  constructor( private _albumGateWay: AlbumGateway) {}
   getAlbumById (id: String) : Observable <Album> {
-    //TODO: En este sitio podríamos manejar las configuraciones 
+    //TODO: En este sitio podríamos manejar las configuraciones
     //en cache
     return this._albumGateWay.getByID(id);
   }
